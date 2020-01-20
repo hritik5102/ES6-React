@@ -163,6 +163,26 @@ const combined = {
 };
 console.log(combined);
 
+// changed the original array 
+let arr = ['a','b','c']; 
+let arr2 = arr; 
+  
+arr2.push('d'); 
+  
+console.log(arr2); 
+console.log(arr); // even affected the original array(arr) 
+
+// spread operator for copying  
+let arr = ['a','b','c']; 
+let arr2 = [...arr]; 
+  
+console.log(arr); // [ 'a', 'b', 'c' ] 
+  
+arr2.push('d'); //inserting an element at the end of arr2 
+  
+console.log(arr2); // [ 'a', 'b', 'c', 'd' ] 
+console.log(arr); // [ 'a', 'b', 'c' ] 
+
 // classes -> 
 
 class animal {
