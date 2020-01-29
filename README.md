@@ -1,47 +1,59 @@
-# ES6-React
+### ES6-React
 
-Install Typescript :
+**Install Typescript**
 
-1)	npm install typescript -g
-	tsc --init
+>npm install typescript -g
 
-2) 	npm install npm@latest -g
+>tsc --init
 
-3) 	npm cache clean --force
+**Install the latest version of npm module**
 
-4)	npm install react-scripts@latest
+>npm install npm@latest -g
 
-5) 	npm install --save react-dom
+**Clean Cache**
+> npm cache clean --force
 
-Thier 2 ways create an react app
+**React Script**
+> npm install react-scripts@latest
 
-6) npm install -g create-react-app
-   create-react-app first_app
+**React Dom**
+> npm install --save react-dom
 
-7) npx create-react-app first_app
+**Create a React App using npm**
 
-Install bootstrap :
+> 1. npm install -g create-react-app
 
-8) npm i bootstrap@4.1.1
+> 2. create-react-app first_app
 
-This will create a production build of your app in the build/ folder of your project.
+**Create a React App using npx**
 
-9) npm run build
+> npx create-react-app first_app
 
-Install Extension : https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+**Install bootstrap**
 
-For the most efficient Brunch production build, install the terser-brunch plugin:
+> npm i bootstrap@4.1.1
 
-10) npm install --save-dev terser-brunch
+**This will create a production build of your app in the build/ folder of your project**
 
-For the most efficient Browserify production build, install a few plugins:
+> npm run build
 
-11) npm install --save-dev envify terser uglifyify 
+**Install Extension :** [React Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+"React")
 
-How to use to use production build
+**For the most efficient Brunch production build, install the terser-brunch plugin:**
 
-https://reactjs.org/docs/optimizing-performance.html#use-the-production-build
+> npm install --save-dev terser-brunch
 
-For generating random id :
+**For the most efficient Browserify production build, install a few plugins**
 
-12) npm i uuid
+> npm install --save-dev envify terser uglifyify 
+
+**How to use production build :** [React docs](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build
+"React docs")
+
+**Component Lifecycle Methods**
+
+* **componentWillMount** : Immediately before initial rendering 
+* **componentDidMount**  : Immediately before after rendering (this will call only one time) 
+* **componentWilUpdate** : Before rendering , after receiving new props or state
+* **componentDidUpdate** : After component updates are flushed to DOM 
