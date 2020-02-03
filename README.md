@@ -58,4 +58,30 @@
 * **componentWilUpdate** : Before rendering , after receiving new props or state
 * **componentDidUpdate** : After component updates are flushed to DOM 
 
-Developed with :heart: by [Hritik Jaiswal]( https://hritik5102.github.io/ "Hritik Jaiswal")
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+<h3 align="center">
+<b><a> Developed with :heart: by <a href= "https://hritik5102.github.io/" > Hritik Jaiswal</a>
+</b></h3>
+
+**Github Search Engine**
+
+<div align="center" style='width:500px;'>
+    <img src='assets/github-search-engine.gif'>
+</div>  
+
+**To do list**
+
+
+<div align="center" style='width:500px;'>
+    <img src='assets/todo.gif'>
+</div>
+
+**Fetch github api**
+
+<div align="center" style='width:500px;'>
+    <img src='assets/fetch.gif'>
+</div>
