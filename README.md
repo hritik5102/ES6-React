@@ -63,9 +63,6 @@
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-<h3 align="center">
-<b><a> Developed with :heart: by <a href= "https://hritik5102.github.io/" > Hritik Jaiswal</a>
-</b></h3>
 
 **Github Search Engine**
 
@@ -85,3 +82,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 <div align="center" style='width:500px;'>
     <img src='assets/fetch.gif'>
 </div>
+
+<h3 align="center">
+<b><a> Developed with :heart: by <a href= "https://hritik5102.github.io/" > Hritik Jaiswal</a>
+</b></h3>
